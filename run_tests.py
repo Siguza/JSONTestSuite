@@ -266,6 +266,11 @@ programs = {
            "url":"https://github.com/udp/json-parser",
            "commands":[os.path.join(PARSERS_DIR, "test_json-parser/bin/test_json-parser")]
        },
+   "C jssy":
+       {
+           "url":"https://github.com/tihmstar/jssy",
+           "commands":[os.path.join(PARSERS_DIR, "test_jssy/jssy")]
+       },
    "Rust json-rust":
        {
            "url":"https://github.com/maciejhirsz/json-rust",
